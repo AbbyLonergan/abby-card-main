@@ -40,8 +40,8 @@
       /* adjust this to space out the cards */
       margin: 100px auto;
       overflow: hidden;
-      box-shadow: 2px 5px 15px 0px #17161694;
-      z-index:1;
+      box-shadow: 3px 6px 15px 7px #00000094;
+      z-index:5;
       /* background-color:rgb(0, 0, 0); */
     }
     
@@ -85,27 +85,28 @@
     }  */
 
     button{
-        margin: 0 auto;
-        background-color:rgba(42, 108, 189, 0.392);
-        border-radius: 15px;
-        margin-top: 25px;
-        margin-left: 35%;
-        width:430px;
-        height:330px;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        z-index: 5;
-        position:absolute;
-        top: 0;
-        left: 0;
-        }
-    
-    
+      margin: 0 auto;
+      background-color:rgba(42, 108, 189, 0);
+      border-radius: 15px;
+      margin-top: 100px;
+      margin-left: 35%;
+      width:430px;
+      height:330px;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      z-index: 5;
+      position:absolute;
+      top: 0;
+      left: 0;
+      cursor: url("/assets/APointer-cursor.svg"), auto;
+
+      }
+      
 
     
     .back-side-image 
@@ -122,7 +123,7 @@
       margin-bottom: 0px;
       margin-left: 0px;
       font-size: 35px;
-      font-weight: 10px;
+      font-weight: 1px;
       font-style: normal;
       font-family:'IBM Plex Serif', serif;
     }
@@ -151,10 +152,16 @@
       margin-top: 80px;
       margin-left: 65px;
     }
-    
+    body {
+      Cursor: url("/assets/ADefault-cursor.svg"), auto;
+    }
+
+
+
     /* svg styling */
     .st1{display:inline;}
     
+  
     
     .svg-interaction:hover{
       fill:rgb(27, 114, 237);
