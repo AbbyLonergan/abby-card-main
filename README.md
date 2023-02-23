@@ -1,2 +1,2 @@
-# boilerPlate
-basic starting file structure for Umass Dartmouth
+## Documentation for Business Card
+I'm Abby Lonergan, a sophomore at Umass Dartmouth and I created this business card website with HTML and CSS.  This is my first time working with HTML and CSS.  My biggest struggle with this project was the animation of the frame falling off and with the help of my professor, Lara Henderson, we achieved the animation.  I learned a lot of new things from this project like creating a custom default cursor and pointer cursor.  I learned this from www.tutorialrepublic.com and blog.logrocket.com.  I learned how to use grids to contain text and icons in order to format the card.  It was exciting seeing my work come to life with coding and I'm excited to work more with code in the future.
